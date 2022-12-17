@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background-image: url(../sahifa/sahifa/images/chef-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.header__title {
+    text-transform: uppercase;
+    font-size: 600;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+
+}
+
+.nav__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    color: #333;
+}
+
+.nav__link:hover {
+    background: #efefef;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__box {
+    width: calc(100% / 3 - 20px);
+    height: 400px;
+    margin: 10px auto;
+}
+
+.main__box img {
+    width: 100%;
+    height: 50%;
+}
+
+.btn {
+    padding: 15px 20px;
+    color: red;
+    border: 3px solid;
+    margin: 50px auto;
+    background: #fff;
+    cursor: pointer;
+}
+
+footer {
+    background-image: url(../sahifa/sahifa/images/background.jpg);
+    background-size: cover;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.footer__form {
+    margin: 100px auto;
+    margin-left: 500px;
+    padding: 15px 50px;
+}
+
+.footer__form-input {
+    text-align: center;
+    padding: 15px 20px;
+    margin-left: 50px;
+    color: #fff;
+    background: red;
+}
+
+.footer__h3 {
+    margin-top: -50px;
+    color: #fff;
+    text-align: center;
+}
+
+.main__box-fon {
+    background: orangered;
+    color: #fff;
+}
+
+.main__box-fon-span-text {
+    background: orangered;
+    color: #fff;
+}
+.main__box-fon-title {
+    background: aqua;
+    color: #fff;
+}
+
+.main__box-fon-title-text-span {
+    background: red;
+    color: #fff;
+}
+
+.main__box-fon-title-text {
+    background: green;
+    color: #fff;
+}
+
+.main__box-fon-span {
+    background: red;
+    color: #fff;
+}

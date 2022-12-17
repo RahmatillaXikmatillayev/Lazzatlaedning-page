@@ -1,0 +1,31 @@
+@media only screen and (max-width : 600px) {
+    header {
+        padding: 100px 0;
+    }
+
+    .header__title {
+        font-size: 70px;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .nav__link {
+        text-align: center;
+
+    }
+
+    .main__box {
+        width: 100%;
+        line-height: 40px;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+        display: flex;
+        gap: 20px;
+    }
+}
